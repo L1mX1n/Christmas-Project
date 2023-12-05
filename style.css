@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+
+#container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    border: 0.1px solid white;
+}
+
+.cabeza {
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+    margin: auto;
+
+    
+}
+
+.cuerpo {
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 130px;
+    left: 0px;
+    right: 0px;
+    top: 250px;
+    margin: auto;
+    z-index: 3;
+}
+
+.brazo-izq {
+    background-color: green;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 250px;
+    margin: auto;
+    z-index: 2;
+    animation-name: brazo-izq;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.brazo-der {
+    background-color: aqua;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 250px;
+    margin: auto;
+    z-index: 3;
+    animation-name: brazo-der;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.pierna-izq {
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 370px;
+    margin: auto;
+    animation-name: pierna-izq;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.pierna-der {
+    background-color: red;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 370px;
+    margin: auto;
+    animation-name: pierna-der;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes brazo-izq {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(50deg);
+    }
+    50% {
+        transform: rotate(-50deg);
+    }
+    100% {
+        transform: rotate(50deg);
+    }
+}
+
+@keyframes brazo-der {
+    0% {
+        transform: rotate(20deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(50deg);
+    }
+    100% {
+        transform: rotate(-50deg);
+    }
+}
+
+@keyframes pierna-izq {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    75% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes pierna-der {
+    0% {
+        transform: rotate(30deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
