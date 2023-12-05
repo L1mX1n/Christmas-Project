@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: cyan;
 }
 
 #container {
@@ -19,27 +19,27 @@ body {
     right: 0px;
     top: 150px;
     margin: auto;
-    border-radius: 10%;
+    border-radius: 100%;
 }
 
 .cuerpo {
-    background-color: gray;
+    background-color: white;
     position: absolute;
-    width: 50px;
+    width: 110px;
     height: 135px;
     left: 0px;
     right: 0px;
     top: 250px;
     margin: auto;
     z-index: 3;
-    border-radius: 10%;
+    border-radius: 100%;
 }
 
 .brazo-izq {
-    background-color: green;
+    background-color: #742d22;
     position: absolute;
-    width: 45px;
-    height: 100px;
+    width: 20px;
+    height: 120px;
     left: 0px;
     right: 0px;
     top: 250px;
@@ -52,10 +52,10 @@ body {
 }
 
 .brazo-der {
-    background-color: aqua;
+    background-color: #742d22;
     position: absolute;
-    width: 45px;
-    height: 100px;
+    width: 20px;
+    height: 120px;
     left: 0px;
     right: 0px;
     top: 250px;
@@ -68,10 +68,10 @@ body {
 }
 
 .pierna-izq {
-    background-color: white;
+    background-color: #742d22;
     position: absolute;
-    width: 45px;
-    height: 105px;
+    width: 20px;
+    height: 70px;
     left: 0px;
     right: 0px;
     top: 370px;
@@ -83,10 +83,10 @@ body {
 }
 
 .pierna-der {
-    background-color: red;
+    background-color: #742d22;
     position: absolute;
-    width: 45px;
-    height: 105px;
+    width: 20px;
+    height: 70px;
     left: 0px;
     right: 0px;
     top: 370px;
